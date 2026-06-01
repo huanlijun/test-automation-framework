@@ -1,0 +1,44 @@
+# 超时处理测试用例
+# 验证接口在各种超时场景下的处理能力
+
+- baseInfo:
+    api_name: 查询用户-正常响应时间
+    url: /dar/user/queryUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 超时测试-正常请求响应时间验证
+      data:
+        user_id: '123839387391912'
+      validation:
+        - contains: { 'msg': '查询成功' }
+        - contains: { 'msg_code': 200 }
+
+- baseInfo:
+    api_name: 商品列表-响应时间验证
+    url: /coupApply/cms/goodsList
+    method: Get
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 超时测试-商品列表接口响应时间
+      params:
+        msgType: getHandsetListOfCust
+        page: 1
+        size: 20
+      validation:
+        - contains: { 'error_code': '0000' }
+
+- baseInfo:
+    api_name: 删除用户-响应时间验证
+    url: /dar/user/deleteUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 超时测试-删除接口响应时间
+      data:
+        user_id: '331111456562131'
+      validation:
+        - contains: { 'msg': '删除成功' }

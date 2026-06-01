@@ -1,0 +1,91 @@
+name: API Automation Tests
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    # 每天北京时间 09:00 自动执行（UTC+8 = UTC 01:00）
+    - cron: '0 1 * * *'
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 安装主框架依赖
+        working-directory: .
+        run: pip install -e .
+
+      - name: 安装 Mock Server 依赖
+        working-directory: mock_server/api_server
+        run: pip install -e .
+
+      - name: 启动 Mock Server（后台运行）
+        working-directory: mock_server/api_server
+        run: |
+          nohup python base/flask_service.py &
+          # 等待服务启动
+          sleep 3
+          curl --retry 5 --retry-delay 1 --retry-connrefused http://127.0.0.1:8787/index
+
+      - name: 执行自动化测试
+        run: |
+          pytest -s -v \
+            --alluredir=./report/temp \
+            --clean-alluredir \
+            --junitxml=./report/results.xml \
+            ./testcase
+
+      - name: 上传 JUnit 测试结果
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: junit-results
+          path: report/results.xml
+
+      - name: 上传 Allure 原始数据
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: allure-results
+          path: report/temp/
+
+      - name: 安装 Allure CLI
+        if: always()
+        run: |
+          wget -q https://github.com/allure-framework/allure2/releases/download/2.27.0/allure-2.27.0.tgz
+          tar -xzf allure-2.27.0.tgz
+          sudo mv allure-2.27.0 /opt/allure
+          sudo ln -s /opt/allure/bin/allure /usr/local/bin/allure
+
+      - name: 生成 Allure HTML 报告
+        if: always()
+        run: allure generate ./report/temp -o ./report/allureReport --clean
+
+      - name: 上传 Allure HTML 报告
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: allure-report
+          path: report/allureReport/
+
+      - name: 发布测试结果摘要
+        uses: dorny/test-reporter@v1
+        if: always()
+        with:
+          name: Pytest 测试报告
+          path: report/results.xml
+          reporter: java-junit
+          fail-on-error: false

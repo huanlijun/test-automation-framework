@@ -1,0 +1,143 @@
+# 边界测试和反向测试用例 - 用户管理模块
+# 补充原有用例缺失的边界值、异常参数、极端输入场景
+
+- baseInfo:
+    api_name: 查询用户-边界与反向测试
+    url: /dar/user/queryUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 边界测试-user_id为空字符串
+      data:
+        user_id: ''
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 边界测试-user_id超长（100位数字）
+      data:
+        user_id: '1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890'
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 边界测试-user_id为负数
+      data:
+        user_id: '-1'
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 边界测试-user_id为0
+      data:
+        user_id: '0'
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 反向测试-user_id含特殊字符
+      data:
+        user_id: '!@#$%^&*()'
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 反向测试-user_id含中文
+      data:
+        user_id: '用户编号'
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 反向测试-缺少必填参数user_id
+      data: {}
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+- baseInfo:
+    api_name: 新增用户-边界与反向测试
+    url: /dar/user/addUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 边界测试-手机号不足11位
+      data:
+        username: testuser
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: '1380000'
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: 边界测试-手机号超过11位
+      data:
+        username: testuser
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: '138000000001234'
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: 边界测试-日期格式错误
+      data:
+        username: testuser
+        password: test123456
+        role_id: 123456789
+        dates: '20240101'
+        phone: '13800000000'
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: 边界测试-用户名超长（256字符）
+      data:
+        username: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: '13800000000'
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: 反向测试-密码为空
+      data:
+        username: testuser
+        password: ''
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: '13800000000'
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+- baseInfo:
+    api_name: 删除用户-边界与反向测试
+    url: /dar/user/deleteUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 边界测试-user_id为空
+      data:
+        user_id: ''
+      validation:
+        - contains: { 'msg': '删除失败' }
+
+    - case_name: 边界测试-user_id为纯空格
+      data:
+        user_id: '   '
+      validation:
+        - contains: { 'msg': '删除失败' }
+
+    - case_name: 反向测试-user_id为浮点数
+      data:
+        user_id: '123.456'
+      validation:
+        - contains: { 'msg': '删除失败' }
+
+    - case_name: 反向测试-user_id为布尔值字符串
+      data:
+        user_id: 'true'
+      validation:
+        - contains: { 'msg': '删除失败' }

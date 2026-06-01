@@ -1,0 +1,30 @@
+- baseInfo:
+    api_name: 删除用户-边界与反向测试
+    url: /dar/user/deleteUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 边界测试-user_id为空
+      data:
+        user_id: ''
+      validation:
+        - contains: { 'msg': '删除失败' }
+
+    - case_name: 边界测试-user_id为纯空格
+      data:
+        user_id: '   '
+      validation:
+        - contains: { 'msg': '删除失败' }
+
+    - case_name: 反向测试-user_id为浮点数
+      data:
+        user_id: '123.456'
+      validation:
+        - contains: { 'msg': '删除失败' }
+
+    - case_name: 反向测试-user_id为布尔值字符串
+      data:
+        user_id: 'true'
+      validation:
+        - contains: { 'msg': '删除失败' }

@@ -1,0 +1,1551 @@
+INFO - 2026-05-28 10:20:58,016 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2026-05-28 10:20:58,019 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2026-05-28 10:20:58,021 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2026-05-28 10:20:58,023 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2026-05-28 10:20:58,025 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:20:58,027 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:20:58,037 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2026-05-28 10:20:58,064 - sendrequest.py:110 -[sendrequest:send_request] - ConnectionError--连接异常
+ERROR - 2026-05-28 10:36:57,710 - removefile.py:28 -[removefile:remove_file] - [Errno 2] No such file or directory: './report/temp\\01a851ee-dc96-494d-9c6e-3cda8563cd1b-result.json'
+INFO - 2026-05-28 10:36:57,735 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2026-05-28 10:36:57,736 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2026-05-28 10:36:57,739 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2026-05-28 10:36:57,741 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2026-05-28 10:36:57,743 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:36:57,744 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:36:57,746 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2026-05-28 10:36:57,756 - sendrequest.py:110 -[sendrequest:send_request] - ConnectionError--连接异常
+ERROR - 2026-05-28 10:44:48,794 - removefile.py:28 -[removefile:remove_file] - [Errno 2] No such file or directory: './report/temp\\01a851ee-dc96-494d-9c6e-3cda8563cd1b-result.json'
+INFO - 2026-05-28 10:44:48,851 - sendrequest.py:135 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2026-05-28 10:44:48,853 - sendrequest.py:136 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2026-05-28 10:44:48,854 - sendrequest.py:137 -[sendrequest:run_main] - 请求方式：post
+INFO - 2026-05-28 10:44:48,856 - sendrequest.py:138 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2026-05-28 10:44:48,858 - sendrequest.py:139 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:44:48,859 - sendrequest.py:140 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:44:48,861 - sendrequest.py:144 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+ERROR - 2026-05-28 10:44:48,872 - sendrequest.py:110 -[sendrequest:send_request] - ConnectionError--连接异常
+ERROR - 2026-05-28 10:48:38,617 - removefile.py:28 -[removefile:remove_file] - [Errno 2] No such file or directory: './report/temp\\01a851ee-dc96-494d-9c6e-3cda8563cd1b-result.json'
+INFO - 2026-05-28 10:48:38,651 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2026-05-28 10:48:38,652 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2026-05-28 10:48:38,655 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：post
+INFO - 2026-05-28 10:48:38,657 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2026-05-28 10:48:38,658 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:38,660 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:38,662 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2026-05-28 10:48:38,725 - sendrequest.py:109 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3OTkzNjUxOCwianRpIjoiMzNkZGRiYjQtNDY3Ni00NTQwLWE2NzYtYTI5MGU4NDJiNDU2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc3OTkzNjUxOCwiY3NyZiI6IjgxM2M3NzY1LWMzZWEtNDBiYy1hMDhmLTRjZjhlMjI4Y2U2NSIsImV4cCI6MTc3OTkzNzQxOH0.wLPIeRAxXwZionTXCXA7lgDz4eywz8hyKiLy890TUB0', 'csrf_access_token': '813c7765-c3ea-40bc-a08f-4cf8e228ce65'}}
+INFO - 2026-05-28 10:48:38,727 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u767b\u5f55\u6210\u529f",
+  "msg_code": 200,
+  "orgId": "6140913758128971280",
+  "token": "fE05eEed0ECBcebBD7e55eF2F0aaD",
+  "userId": "5407097926597758132"
+}
+
+INFO - 2026-05-28 10:48:38,729 - apiutil.py:165 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2026-05-28 10:48:38,738 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2026-05-28 10:48:38,740 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2026-05-28 10:48:38,742 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2026-05-28 10:48:38,744 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:38,746 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:38,795 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:48:38,797 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:48:38,799 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:38,801 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：正常新增用户
+INFO - 2026-05-28 10:48:38,804 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:38,806 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:38,809 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': 'fE05eEed0ECBcebBD7e55eF2F0aaD'}}
+INFO - 2026-05-28 10:48:38,828 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u65b0\u589e\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:48:38,831 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增成功'}}]
+INFO - 2026-05-28 10:48:38,833 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增成功】,实际结果【新增成功】
+INFO - 2026-05-28 10:48:38,835 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:38,838 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:38,846 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:38,868 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:48:38,870 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:48:38,872 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:38,874 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少token
+INFO - 2026-05-28 10:48:38,876 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:38,878 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:38,879 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2026-05-28 10:48:38,883 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:38,884 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:48:38,886 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:48:38,888 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:38,890 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:38,897 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:38,915 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:48:38,916 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:48:38,918 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:38,919 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少必填参数username
+INFO - 2026-05-28 10:48:38,921 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:38,923 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:38,925 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2026-05-28 10:48:38,933 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:38,936 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:48:38,937 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:48:38,939 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:38,942 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:38,950 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:38,974 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:48:38,976 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:48:38,978 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:38,980 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少必填参数role_id
+INFO - 2026-05-28 10:48:38,982 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:38,984 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:38,987 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2026-05-28 10:48:38,991 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:38,993 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:48:38,995 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:48:38,997 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:38,999 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,006 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,024 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：修改用户
+INFO - 2026-05-28 10:48:39,026 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/updateUser
+INFO - 2026-05-28 10:48:39,028 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,031 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：正常修改用户信息
+INFO - 2026-05-28 10:48:39,032 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,033 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,034 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2023-12-31', 'phone': 13800000000}}
+INFO - 2026-05-28 10:48:39,039 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u66f4\u65b0\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:48:39,041 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '更新成功'}}]
+INFO - 2026-05-28 10:48:39,043 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【更新成功】,实际结果【更新成功】
+INFO - 2026-05-28 10:48:39,045 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,047 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,053 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,076 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:48:39,078 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:48:39,080 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,082 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：有效删除用户
+INFO - 2026-05-28 10:48:39,084 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,085 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,087 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 123839387391912}}
+INFO - 2026-05-28 10:48:39,091 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u5220\u9664\u6210\u529f!",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:48:39,093 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除成功'}}]
+INFO - 2026-05-28 10:48:39,094 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除成功】,实际结果【删除成功!】
+INFO - 2026-05-28 10:48:39,096 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,097 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,103 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,125 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:48:39,127 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:48:39,129 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,131 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效删除用户·userid不存在
+INFO - 2026-05-28 10:48:39,132 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,134 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,136 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 1238393873922}}
+INFO - 2026-05-28 10:48:39,141 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,143 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:48:39,146 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,147 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,150 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,159 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,182 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:48:39,184 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:48:39,185 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,187 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效删除用户·userid为空
+INFO - 2026-05-28 10:48:39,188 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,190 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,192 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 1238393873922}}
+INFO - 2026-05-28 10:48:39,196 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,197 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:48:39,198 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,200 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,203 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,211 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,233 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:48:39,235 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:48:39,237 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,239 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效删除用户·缺少必填参数
+INFO - 2026-05-28 10:48:39,241 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,242 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,249 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,251 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:48:39,253 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,256 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,259 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,266 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,291 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户查询
+INFO - 2026-05-28 10:48:39,293 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:48:39,294 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,296 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：有效查询用户
+INFO - 2026-05-28 10:48:39,297 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,298 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,301 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 123839387391912}}
+INFO - 2026-05-28 10:48:39,307 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u67e5\u8be2\u6210\u529f!",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:48:39,308 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询成功'}}, {'eq': {'msg_code': 200}}]
+INFO - 2026-05-28 10:48:39,310 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询成功】,实际结果【查询成功!】
+INFO - 2026-05-28 10:48:39,311 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg_code': 200}，等于预期结果：{'msg_code': 200}
+INFO - 2026-05-28 10:48:39,314 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,316 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,322 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,339 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户查询
+INFO - 2026-05-28 10:48:39,341 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:48:39,342 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,344 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效查询-user_id不存在
+INFO - 2026-05-28 10:48:39,346 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,347 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,348 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 9999999999999999}}
+INFO - 2026-05-28 10:48:39,353 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,355 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:48:39,356 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,357 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,359 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,364 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,378 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户查询
+INFO - 2026-05-28 10:48:39,380 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:48:39,381 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,382 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效查询-缺少必填参数user_id
+INFO - 2026-05-28 10:48:39,383 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,384 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,385 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': '{}'}
+INFO - 2026-05-28 10:48:39,388 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,390 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:48:39,391 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,393 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,395 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,401 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,420 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:48:39,422 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:48:39,424 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,425 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为空字符串
+INFO - 2026-05-28 10:48:39,426 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,427 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,429 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': ''}}
+INFO - 2026-05-28 10:48:39,433 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,434 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:48:39,435 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,436 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,437 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,444 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,462 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:48:39,463 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:48:39,464 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,465 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id超长（100位数字）
+INFO - 2026-05-28 10:48:39,467 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,468 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,470 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890'}}
+INFO - 2026-05-28 10:48:39,474 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,476 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:48:39,478 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,479 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,481 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,487 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,510 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:48:39,512 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:48:39,514 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,517 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为负数
+INFO - 2026-05-28 10:48:39,519 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,521 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,523 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '-1'}}
+INFO - 2026-05-28 10:48:39,527 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,529 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:48:39,531 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,532 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,534 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,541 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,562 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:48:39,565 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:48:39,567 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,569 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为0
+INFO - 2026-05-28 10:48:39,571 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,573 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,575 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '0'}}
+INFO - 2026-05-28 10:48:39,581 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,583 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:48:39,584 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,585 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,587 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,599 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,623 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:48:39,625 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:48:39,627 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,630 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id含特殊字符
+INFO - 2026-05-28 10:48:39,632 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,634 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,636 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '!@#$%^&*()'}}
+INFO - 2026-05-28 10:48:39,641 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,643 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:48:39,645 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,647 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,649 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,657 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,676 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:48:39,677 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:48:39,679 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,680 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id含中文
+INFO - 2026-05-28 10:48:39,681 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,683 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,684 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '用户编号'}}
+INFO - 2026-05-28 10:48:39,687 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,689 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:48:39,691 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,692 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,694 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,702 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,721 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:48:39,723 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:48:39,726 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,728 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-缺少必填参数user_id
+INFO - 2026-05-28 10:48:39,730 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,732 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,733 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': '{}'}
+INFO - 2026-05-28 10:48:39,737 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:39,738 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:48:39,740 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:48:39,742 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:39,744 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:39,750 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:39,795 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:48:39,797 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:48:39,799 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:39,800 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-手机号不足11位
+INFO - 2026-05-28 10:48:39,803 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:39,805 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:39,807 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': 'test123456', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '1380000', 'token': 'fE05eEed0ECBcebBD7e55eF2F0aaD'}}
+INFO - 2026-05-28 10:48:39,819 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u65b0\u589e\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:48:39,821 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+ERROR - 2026-05-28 10:48:39,823 - assertions.py:50 -[assertions:contains_assert] - 响应文本断言失败：预期结果为【新增失败】,实际结果为【新增成功】
+ERROR - 2026-05-28 10:48:39,825 - assertions.py:201 -[assertions:assert_result] - 测试失败
+ERROR - 2026-05-28 10:48:39,827 - apiutil.py:126 -[apiutil:specification_yaml] - 
+INFO - 2026-05-28 10:48:40,407 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:40,420 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:40,478 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:48:40,480 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:48:40,482 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:40,484 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-手机号超过11位
+INFO - 2026-05-28 10:48:40,486 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:40,488 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:40,490 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': 'test123456', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '138000000001234', 'token': 'fE05eEed0ECBcebBD7e55eF2F0aaD'}}
+INFO - 2026-05-28 10:48:40,501 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u65b0\u589e\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:48:40,503 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+ERROR - 2026-05-28 10:48:40,505 - assertions.py:50 -[assertions:contains_assert] - 响应文本断言失败：预期结果为【新增失败】,实际结果为【新增成功】
+ERROR - 2026-05-28 10:48:40,507 - assertions.py:201 -[assertions:assert_result] - 测试失败
+ERROR - 2026-05-28 10:48:40,508 - apiutil.py:126 -[apiutil:specification_yaml] - 
+INFO - 2026-05-28 10:48:40,828 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:40,843 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:40,901 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:48:40,903 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:48:40,905 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:40,907 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-日期格式错误
+INFO - 2026-05-28 10:48:40,909 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:40,912 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:40,914 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': 'test123456', 'role_id': 123456789, 'dates': '20240101', 'phone': '13800000000', 'token': 'fE05eEed0ECBcebBD7e55eF2F0aaD'}}
+INFO - 2026-05-28 10:48:40,927 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u65b0\u589e\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:48:40,929 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+ERROR - 2026-05-28 10:48:40,930 - assertions.py:50 -[assertions:contains_assert] - 响应文本断言失败：预期结果为【新增失败】,实际结果为【新增成功】
+ERROR - 2026-05-28 10:48:40,932 - assertions.py:201 -[assertions:assert_result] - 测试失败
+ERROR - 2026-05-28 10:48:40,934 - apiutil.py:126 -[apiutil:specification_yaml] - 
+INFO - 2026-05-28 10:48:41,111 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:41,119 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:41,142 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:48:41,143 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:48:41,145 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:41,146 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-用户名超长（256字符）
+INFO - 2026-05-28 10:48:41,147 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:41,148 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:41,150 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'password': 'test123456', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '13800000000', 'token': 'fE05eEed0ECBcebBD7e55eF2F0aaD'}}
+INFO - 2026-05-28 10:48:41,163 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u65b0\u589e\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:48:41,164 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+ERROR - 2026-05-28 10:48:41,165 - assertions.py:50 -[assertions:contains_assert] - 响应文本断言失败：预期结果为【新增失败】,实际结果为【新增成功】
+ERROR - 2026-05-28 10:48:41,167 - assertions.py:201 -[assertions:assert_result] - 测试失败
+ERROR - 2026-05-28 10:48:41,169 - apiutil.py:126 -[apiutil:specification_yaml] - 
+INFO - 2026-05-28 10:48:41,388 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:41,397 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:41,479 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:48:41,482 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:48:41,485 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:41,487 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-密码为空
+INFO - 2026-05-28 10:48:41,491 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:41,494 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:41,496 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': '', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '13800000000', 'token': 'fE05eEed0ECBcebBD7e55eF2F0aaD'}}
+INFO - 2026-05-28 10:48:41,503 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:41,507 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:48:41,509 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:48:41,512 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:41,515 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:41,527 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:41,560 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:48:41,563 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:48:41,565 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:41,568 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为空
+INFO - 2026-05-28 10:48:41,571 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:41,574 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:41,576 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': ''}}
+INFO - 2026-05-28 10:48:41,583 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:41,586 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:48:41,589 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:48:41,591 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:41,594 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:41,615 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:41,654 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:48:41,657 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:48:41,660 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:41,664 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为纯空格
+INFO - 2026-05-28 10:48:41,667 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:41,670 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:41,673 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '   '}}
+INFO - 2026-05-28 10:48:41,680 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:41,683 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:48:41,686 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:48:41,690 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:41,693 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:41,706 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:41,757 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:48:41,762 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:48:41,767 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:41,771 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id为浮点数
+INFO - 2026-05-28 10:48:41,776 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:41,782 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:41,789 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '123.456'}}
+INFO - 2026-05-28 10:48:41,797 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:41,801 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:48:41,804 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:48:41,807 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:41,811 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:48:41,822 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:48:41,847 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:48:41,850 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:48:41,852 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:48:41,854 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id为布尔值字符串
+INFO - 2026-05-28 10:48:41,857 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:48:41,859 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:48:41,862 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 'true'}}
+INFO - 2026-05-28 10:48:41,868 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:48:41,871 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:48:41,874 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:48:41,876 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:48:41,880 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+ERROR - 2026-05-28 10:50:44,902 - removefile.py:28 -[removefile:remove_file] - [Errno 2] No such file or directory: './report/temp\\01a851ee-dc96-494d-9c6e-3cda8563cd1b-result.json'
+INFO - 2026-05-28 10:50:44,937 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2026-05-28 10:50:44,939 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2026-05-28 10:50:44,941 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：post
+INFO - 2026-05-28 10:50:44,943 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2026-05-28 10:50:44,945 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:44,947 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:44,950 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2026-05-28 10:50:44,970 - sendrequest.py:109 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3OTkzNjY0NCwianRpIjoiODk1ZTJkMjItNjEzYy00OTQ4LThhMTYtZjkxMDA4OTBlYzRmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc3OTkzNjY0NCwiY3NyZiI6IjA0NDc2NTVjLThlYzItNGU5MC1iNWY3LTZmOWMyZjU1NjU4ZiIsImV4cCI6MTc3OTkzNzU0NH0.AvhystIdfEc5BgYhPxvmBeQ9BNwZ7TE_9pjDvdS7MYU', 'csrf_access_token': '0447655c-8ec2-4e90-b5f7-6f9c2f55658f'}}
+INFO - 2026-05-28 10:50:44,972 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u767b\u5f55\u6210\u529f",
+  "msg_code": 200,
+  "orgId": "6140913758128971280",
+  "token": "c8D4606F76eF0ad1300ADeA2dCef1",
+  "userId": "4506618223582489060"
+}
+
+INFO - 2026-05-28 10:50:44,974 - apiutil.py:165 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2026-05-28 10:50:44,981 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2026-05-28 10:50:44,983 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2026-05-28 10:50:44,984 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2026-05-28 10:50:44,986 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:44,987 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,028 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:50:45,030 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:50:45,031 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,033 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：正常新增用户
+INFO - 2026-05-28 10:50:45,035 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,037 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,039 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': 'c8D4606F76eF0ad1300ADeA2dCef1'}}
+INFO - 2026-05-28 10:50:45,056 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u65b0\u589e\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:50:45,058 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增成功'}}]
+INFO - 2026-05-28 10:50:45,060 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增成功】,实际结果【新增成功】
+INFO - 2026-05-28 10:50:45,062 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,065 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,073 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,095 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:50:45,098 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:50:45,102 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,108 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少token
+INFO - 2026-05-28 10:50:45,110 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,113 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,116 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2026-05-28 10:50:45,121 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,122 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:50:45,124 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:50:45,127 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,129 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,137 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,163 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:50:45,164 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:50:45,166 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,171 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少必填参数username
+INFO - 2026-05-28 10:50:45,173 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,176 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,178 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2026-05-28 10:50:45,183 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,185 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:50:45,187 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:50:45,189 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,191 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,200 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,231 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:50:45,237 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:50:45,241 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,243 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少必填参数role_id
+INFO - 2026-05-28 10:50:45,245 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,247 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,249 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2026-05-28 10:50:45,253 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,256 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:50:45,258 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:50:45,260 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,262 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,269 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,293 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：修改用户
+INFO - 2026-05-28 10:50:45,296 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/updateUser
+INFO - 2026-05-28 10:50:45,298 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,300 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：正常修改用户信息
+INFO - 2026-05-28 10:50:45,301 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,303 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,303 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2023-12-31', 'phone': 13800000000}}
+INFO - 2026-05-28 10:50:45,307 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u66f4\u65b0\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:50:45,309 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '更新成功'}}]
+INFO - 2026-05-28 10:50:45,310 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【更新成功】,实际结果【更新成功】
+INFO - 2026-05-28 10:50:45,313 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,315 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,322 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,348 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:50:45,349 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:50:45,351 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,353 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：有效删除用户
+INFO - 2026-05-28 10:50:45,355 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,357 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,358 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 123839387391912}}
+INFO - 2026-05-28 10:50:45,362 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u5220\u9664\u6210\u529f!",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:50:45,364 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除成功'}}]
+INFO - 2026-05-28 10:50:45,366 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除成功】,实际结果【删除成功!】
+INFO - 2026-05-28 10:50:45,367 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,369 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,376 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,398 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:50:45,400 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:50:45,402 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,403 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效删除用户·userid不存在
+INFO - 2026-05-28 10:50:45,405 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,406 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,408 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 1238393873922}}
+INFO - 2026-05-28 10:50:45,416 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,418 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:50:45,420 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:50:45,422 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,424 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,430 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,448 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:50:45,450 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:50:45,452 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,454 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效删除用户·userid为空
+INFO - 2026-05-28 10:50:45,456 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,457 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,459 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 1238393873922}}
+INFO - 2026-05-28 10:50:45,465 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,467 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:50:45,469 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:50:45,471 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,473 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,489 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,533 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:50:45,537 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:50:45,550 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,555 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效删除用户·缺少必填参数
+INFO - 2026-05-28 10:50:45,557 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,560 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,567 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,569 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:50:45,572 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:50:45,574 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,576 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,586 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,610 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户查询
+INFO - 2026-05-28 10:50:45,613 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:50:45,615 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,617 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：有效查询用户
+INFO - 2026-05-28 10:50:45,619 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,622 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,624 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 123839387391912}}
+INFO - 2026-05-28 10:50:45,630 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u67e5\u8be2\u6210\u529f!",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:50:45,632 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询成功'}}, {'eq': {'msg_code': 200}}]
+INFO - 2026-05-28 10:50:45,635 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询成功】,实际结果【查询成功!】
+INFO - 2026-05-28 10:50:45,637 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg_code': 200}，等于预期结果：{'msg_code': 200}
+INFO - 2026-05-28 10:50:45,639 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,642 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,652 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,678 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户查询
+INFO - 2026-05-28 10:50:45,680 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:50:45,681 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,683 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效查询-user_id不存在
+INFO - 2026-05-28 10:50:45,684 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,686 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,688 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 9999999999999999}}
+INFO - 2026-05-28 10:50:45,692 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,694 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:50:45,695 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:50:45,697 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,699 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,706 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,726 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户查询
+INFO - 2026-05-28 10:50:45,731 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:50:45,733 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,735 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效查询-缺少必填参数user_id
+INFO - 2026-05-28 10:50:45,737 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,739 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,741 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': '{}'}
+INFO - 2026-05-28 10:50:45,746 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,748 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:50:45,750 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:50:45,752 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,754 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,761 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,781 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:50:45,783 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:50:45,785 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,787 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为空字符串
+INFO - 2026-05-28 10:50:45,788 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,789 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,791 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': ''}}
+INFO - 2026-05-28 10:50:45,795 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,797 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:50:45,798 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:50:45,800 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,802 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,809 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,825 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:50:45,827 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:50:45,829 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,831 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id超长（100位数字）
+INFO - 2026-05-28 10:50:45,833 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,835 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,837 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890'}}
+INFO - 2026-05-28 10:50:45,842 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,844 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:50:45,845 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:50:45,846 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,848 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,854 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,870 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:50:45,872 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:50:45,873 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,875 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为负数
+INFO - 2026-05-28 10:50:45,876 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,878 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,879 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '-1'}}
+INFO - 2026-05-28 10:50:45,882 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,883 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:50:45,885 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:50:45,886 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,888 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,895 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:45,956 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:50:45,959 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:50:45,963 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:45,966 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为0
+INFO - 2026-05-28 10:50:45,968 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:45,970 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:45,973 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '0'}}
+INFO - 2026-05-28 10:50:45,978 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:45,980 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:50:45,983 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:50:45,988 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:45,990 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:45,996 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,016 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,017 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:50:46,018 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,019 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id含特殊字符
+INFO - 2026-05-28 10:50:46,020 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,021 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,022 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '!@#$%^&*()'}}
+INFO - 2026-05-28 10:50:46,025 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,026 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:50:46,027 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:50:46,030 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,032 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:46,039 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,059 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,061 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:50:46,063 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,065 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id含中文
+INFO - 2026-05-28 10:50:46,067 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,069 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,070 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '用户编号'}}
+INFO - 2026-05-28 10:50:46,075 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,078 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:50:46,080 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:50:46,083 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,085 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:46,094 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,112 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,114 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:50:46,115 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,117 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-缺少必填参数user_id
+INFO - 2026-05-28 10:50:46,118 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,120 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,122 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': '{}'}
+INFO - 2026-05-28 10:50:46,125 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,127 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:50:46,128 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:50:46,130 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,131 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:46,138 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,179 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,181 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:50:46,183 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,185 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-手机号不足11位
+INFO - 2026-05-28 10:50:46,187 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,189 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,192 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': 'test123456', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '1380000', 'token': 'c8D4606F76eF0ad1300ADeA2dCef1'}}
+INFO - 2026-05-28 10:50:46,197 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "\u624b\u673a\u53f7\u683c\u5f0f\u9519\u8bef\uff0c\u5fc5\u987b\u4e3a11\u4f4d\u6570\u5b57",
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,199 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:50:46,201 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:50:46,204 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,206 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:46,214 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,258 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,260 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:50:46,262 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,264 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-手机号超过11位
+INFO - 2026-05-28 10:50:46,266 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,268 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,269 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': 'test123456', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '138000000001234', 'token': 'c8D4606F76eF0ad1300ADeA2dCef1'}}
+INFO - 2026-05-28 10:50:46,273 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "\u624b\u673a\u53f7\u683c\u5f0f\u9519\u8bef\uff0c\u5fc5\u987b\u4e3a11\u4f4d\u6570\u5b57",
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,274 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:50:46,275 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:50:46,277 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,278 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:46,285 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,328 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,329 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:50:46,330 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,331 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-日期格式错误
+INFO - 2026-05-28 10:50:46,333 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,335 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,336 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': 'test123456', 'role_id': 123456789, 'dates': '20240101', 'phone': '13800000000', 'token': 'c8D4606F76eF0ad1300ADeA2dCef1'}}
+INFO - 2026-05-28 10:50:46,345 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "\u65e5\u671f\u683c\u5f0f\u9519\u8bef\uff0c\u5fc5\u987b\u4e3aYYYY-MM-DD",
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,347 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:50:46,349 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:50:46,351 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,353 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:46,360 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,403 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,405 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:50:46,407 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,409 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-用户名超长（256字符）
+INFO - 2026-05-28 10:50:46,411 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,413 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,414 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'password': 'test123456', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '13800000000', 'token': 'c8D4606F76eF0ad1300ADeA2dCef1'}}
+INFO - 2026-05-28 10:50:46,419 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "\u7528\u6237\u540d\u957f\u5ea6\u4e0d\u80fd\u8d85\u8fc764\u4e2a\u5b57\u7b26",
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,421 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:50:46,423 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:50:46,425 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,427 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:46,433 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,483 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,486 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:50:46,488 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,490 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-密码为空
+INFO - 2026-05-28 10:50:46,492 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,494 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,498 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': '', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '13800000000', 'token': 'c8D4606F76eF0ad1300ADeA2dCef1'}}
+INFO - 2026-05-28 10:50:46,505 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,507 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:50:46,509 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:50:46,511 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,513 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:46,521 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,543 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,545 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:50:46,546 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,548 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为空
+INFO - 2026-05-28 10:50:46,549 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,551 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,552 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': ''}}
+INFO - 2026-05-28 10:50:46,555 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,557 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:50:46,561 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:50:46,563 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,565 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:46,571 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,588 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,590 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:50:46,591 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,592 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为纯空格
+INFO - 2026-05-28 10:50:46,594 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,596 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,597 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '   '}}
+INFO - 2026-05-28 10:50:46,600 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,601 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:50:46,603 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:50:46,605 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,606 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:46,612 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,634 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,636 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:50:46,638 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,639 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id为浮点数
+INFO - 2026-05-28 10:50:46,641 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,643 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,645 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '123.456'}}
+INFO - 2026-05-28 10:50:46,654 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,661 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:50:46,668 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:50:46,670 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,673 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:50:46,685 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:50:46,713 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:50:46,715 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:50:46,717 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:50:46,719 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id为布尔值字符串
+INFO - 2026-05-28 10:50:46,720 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:50:46,722 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:50:46,724 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 'true'}}
+INFO - 2026-05-28 10:50:46,730 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:50:46,732 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:50:46,734 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:50:46,735 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:50:46,737 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+ERROR - 2026-05-28 10:57:20,066 - removefile.py:28 -[removefile:remove_file] - [Errno 2] No such file or directory: './report/temp\\01a851ee-dc96-494d-9c6e-3cda8563cd1b-result.json'
+INFO - 2026-05-28 10:57:20,101 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户登录
+INFO - 2026-05-28 10:57:20,107 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/login
+INFO - 2026-05-28 10:57:20,116 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：post
+INFO - 2026-05-28 10:57:20,120 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：用户名和密码正确登录验证
+INFO - 2026-05-28 10:57:20,123 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,125 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,129 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2026-05-28 10:57:20,146 - sendrequest.py:109 -[sendrequest:send_request] - cookie：{'Cookie': {'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3OTkzNzA0MCwianRpIjoiZTM2Y2YxMzItZDc4YS00OWNlLWI5ODAtYmMxYWM4ODYyYTJjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc3OTkzNzA0MCwiY3NyZiI6IjZhYjIyN2U3LTY0MjgtNDY4Mi04OWJkLTBiZjg5MjVmZmU3NCIsImV4cCI6MTc3OTkzNzk0MH0.wJekdOwTW_VhXfg4MrS_LPuN9YFfNWykH0CHdV_Cn5A', 'csrf_access_token': '6ab227e7-6428-4682-89bd-0bf8925ffe74'}}
+INFO - 2026-05-28 10:57:20,148 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u767b\u5f55\u6210\u529f",
+  "msg_code": 200,
+  "orgId": "6140913758128971280",
+  "token": "04eA649adcD9976d2Ee7d65C2e488",
+  "userId": "8490586980945583530"
+}
+
+INFO - 2026-05-28 10:57:20,151 - apiutil.py:165 -[apiutil:extract_data] - 提取接口的返回值：
+INFO - 2026-05-28 10:57:20,160 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': 'none'}}, {'eq': {'msg': '登录成功'}}]
+INFO - 2026-05-28 10:57:20,163 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【None】,实际结果【[None]】
+INFO - 2026-05-28 10:57:20,165 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg': '登录成功'}，等于预期结果：{'msg': '登录成功'}
+INFO - 2026-05-28 10:57:20,167 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,169 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,218 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:57:20,221 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:57:20,223 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,224 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：正常新增用户
+INFO - 2026-05-28 10:57:20,225 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,227 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,228 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': '04eA649adcD9976d2Ee7d65C2e488'}}
+INFO - 2026-05-28 10:57:20,239 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u65b0\u589e\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:57:20,240 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增成功'}}]
+INFO - 2026-05-28 10:57:20,242 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增成功】,实际结果【新增成功】
+INFO - 2026-05-28 10:57:20,243 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,245 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,252 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,275 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:57:20,277 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:57:20,279 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,281 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少token
+INFO - 2026-05-28 10:57:20,285 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,286 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,289 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2026-05-28 10:57:20,292 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:20,294 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:57:20,296 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:57:20,297 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,299 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,306 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,325 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:57:20,327 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:57:20,329 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,331 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少必填参数username
+INFO - 2026-05-28 10:57:20,332 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,333 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,335 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'password': 'tset6789890', 'role_id': 123456789, 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2026-05-28 10:57:20,338 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:20,340 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:57:20,341 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:57:20,343 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,344 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,349 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,361 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户
+INFO - 2026-05-28 10:57:20,362 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:57:20,363 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,364 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效新增·缺少必填参数role_id
+INFO - 2026-05-28 10:57:20,366 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,367 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,370 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'dates': '2023-12-31', 'phone': 13800000000, 'token': None}}
+INFO - 2026-05-28 10:57:20,375 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:20,378 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:57:20,380 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:57:20,382 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,384 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,393 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,419 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：修改用户
+INFO - 2026-05-28 10:57:20,421 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/updateUser
+INFO - 2026-05-28 10:57:20,424 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,426 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：正常修改用户信息
+INFO - 2026-05-28 10:57:20,428 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,431 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,433 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2023-12-31', 'phone': 13800000000}}
+INFO - 2026-05-28 10:57:20,438 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u66f4\u65b0\u6210\u529f",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:57:20,441 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'status_code': 200}}, {'contains': {'msg': '更新成功'}}]
+INFO - 2026-05-28 10:57:20,442 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【更新成功】,实际结果【更新成功】
+INFO - 2026-05-28 10:57:20,446 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,447 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,459 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,479 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:57:20,480 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:57:20,482 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,483 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：有效删除用户
+INFO - 2026-05-28 10:57:20,485 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,487 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,488 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 123839387391912}}
+INFO - 2026-05-28 10:57:20,491 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u5220\u9664\u6210\u529f!",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:57:20,493 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除成功'}}]
+INFO - 2026-05-28 10:57:20,494 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除成功】,实际结果【删除成功!】
+INFO - 2026-05-28 10:57:20,496 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,498 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,506 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,526 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:57:20,530 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:57:20,531 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,533 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效删除用户·userid不存在
+INFO - 2026-05-28 10:57:20,535 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,537 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,539 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 1238393873922}}
+INFO - 2026-05-28 10:57:20,543 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:20,545 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:57:20,547 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:57:20,548 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,550 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,557 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,574 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:57:20,576 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:57:20,578 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,579 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效删除用户·userid为空
+INFO - 2026-05-28 10:57:20,581 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,583 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,584 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 1238393873922}}
+INFO - 2026-05-28 10:57:20,588 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:20,590 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:57:20,591 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:57:20,592 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,595 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,602 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,621 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户
+INFO - 2026-05-28 10:57:20,623 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:57:20,625 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,627 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效删除用户·缺少必填参数
+INFO - 2026-05-28 10:57:20,628 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,629 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,632 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:20,634 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:57:20,636 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:57:20,641 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,643 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,652 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,676 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户查询
+INFO - 2026-05-28 10:57:20,677 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:57:20,679 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,682 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：有效查询用户
+INFO - 2026-05-28 10:57:20,683 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,685 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,687 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 123839387391912}}
+INFO - 2026-05-28 10:57:20,692 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error_code": null,
+  "msg": "\u67e5\u8be2\u6210\u529f!",
+  "msg_code": 200
+}
+
+INFO - 2026-05-28 10:57:20,694 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询成功'}}, {'eq': {'msg_code': 200}}]
+INFO - 2026-05-28 10:57:20,695 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询成功】,实际结果【查询成功!】
+INFO - 2026-05-28 10:57:20,698 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'msg_code': 200}，等于预期结果：{'msg_code': 200}
+INFO - 2026-05-28 10:57:20,699 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,701 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,709 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,737 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户查询
+INFO - 2026-05-28 10:57:20,740 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:57:20,742 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,744 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效查询-user_id不存在
+INFO - 2026-05-28 10:57:20,746 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,748 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,750 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 9999999999999999}}
+INFO - 2026-05-28 10:57:20,756 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:20,759 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:57:20,761 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:57:20,763 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,766 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,774 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,795 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：用户查询
+INFO - 2026-05-28 10:57:20,797 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:57:20,800 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,802 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：无效查询-缺少必填参数user_id
+INFO - 2026-05-28 10:57:20,805 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,807 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,809 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': '{}'}
+INFO - 2026-05-28 10:57:20,813 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:20,815 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:57:20,817 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:57:20,819 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,821 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,829 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,851 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:57:20,853 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:57:20,854 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,856 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为空字符串
+INFO - 2026-05-28 10:57:20,858 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,860 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,862 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': ''}}
+INFO - 2026-05-28 10:57:20,865 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:20,867 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:57:20,869 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:57:20,870 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,872 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,879 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,899 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:57:20,902 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:57:20,905 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,906 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id超长（100位数字）
+INFO - 2026-05-28 10:57:20,908 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,909 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,911 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890'}}
+INFO - 2026-05-28 10:57:20,914 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:20,916 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:57:20,917 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:57:20,919 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,920 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,926 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,944 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:57:20,946 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:57:20,948 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:20,949 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为负数
+INFO - 2026-05-28 10:57:20,952 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:20,953 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:20,955 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '-1'}}
+INFO - 2026-05-28 10:57:20,961 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:20,963 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:57:20,964 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:57:20,966 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:20,968 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:20,975 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:20,996 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:57:20,998 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:57:21,004 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,006 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为0
+INFO - 2026-05-28 10:57:21,007 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,009 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,011 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '0'}}
+INFO - 2026-05-28 10:57:21,016 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,017 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:57:21,019 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:57:21,020 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,023 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,030 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,052 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,053 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:57:21,055 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,057 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id含特殊字符
+INFO - 2026-05-28 10:57:21,059 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,062 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,063 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '!@#$%^&*()'}}
+INFO - 2026-05-28 10:57:21,067 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,068 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:57:21,069 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:57:21,070 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,072 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,076 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,088 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,090 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:57:21,091 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,092 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id含中文
+INFO - 2026-05-28 10:57:21,093 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,094 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,095 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '用户编号'}}
+INFO - 2026-05-28 10:57:21,101 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,102 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:57:21,104 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:57:21,110 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,118 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,145 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,175 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：查询用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,178 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/queryUser
+INFO - 2026-05-28 10:57:21,181 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,183 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-缺少必填参数user_id
+INFO - 2026-05-28 10:57:21,185 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,188 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,190 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': '{}'}
+INFO - 2026-05-28 10:57:21,198 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u67e5\u8be2\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,201 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '查询失败'}}]
+INFO - 2026-05-28 10:57:21,202 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【查询失败】,实际结果【查询失败，用户id不存在!】
+INFO - 2026-05-28 10:57:21,204 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,206 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,216 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,262 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,265 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:57:21,266 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,268 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-手机号不足11位
+INFO - 2026-05-28 10:57:21,270 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,272 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,274 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': 'test123456', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '1380000', 'token': '04eA649adcD9976d2Ee7d65C2e488'}}
+INFO - 2026-05-28 10:57:21,279 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "\u624b\u673a\u53f7\u683c\u5f0f\u9519\u8bef\uff0c\u5fc5\u987b\u4e3a11\u4f4d\u6570\u5b57",
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,280 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:57:21,282 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:57:21,283 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,285 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,290 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,325 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,327 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:57:21,328 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,329 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-手机号超过11位
+INFO - 2026-05-28 10:57:21,330 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,331 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,332 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': 'test123456', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '138000000001234', 'token': '04eA649adcD9976d2Ee7d65C2e488'}}
+INFO - 2026-05-28 10:57:21,335 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "\u624b\u673a\u53f7\u683c\u5f0f\u9519\u8bef\uff0c\u5fc5\u987b\u4e3a11\u4f4d\u6570\u5b57",
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,336 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:57:21,337 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:57:21,338 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,340 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,346 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,382 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,384 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:57:21,385 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,387 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-日期格式错误
+INFO - 2026-05-28 10:57:21,389 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,390 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,391 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': 'test123456', 'role_id': 123456789, 'dates': '20240101', 'phone': '13800000000', 'token': '04eA649adcD9976d2Ee7d65C2e488'}}
+INFO - 2026-05-28 10:57:21,396 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "\u65e5\u671f\u683c\u5f0f\u9519\u8bef\uff0c\u5fc5\u987b\u4e3aYYYY-MM-DD",
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,397 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:57:21,398 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:57:21,399 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,400 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,403 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,443 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,445 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:57:21,446 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,448 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-用户名超长（256字符）
+INFO - 2026-05-28 10:57:21,450 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,451 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,452 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'password': 'test123456', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '13800000000', 'token': '04eA649adcD9976d2Ee7d65C2e488'}}
+INFO - 2026-05-28 10:57:21,456 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "\u7528\u6237\u540d\u957f\u5ea6\u4e0d\u80fd\u8d85\u8fc764\u4e2a\u5b57\u7b26",
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,457 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:57:21,459 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:57:21,460 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,463 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,470 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,507 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：新增用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,510 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/addUser
+INFO - 2026-05-28 10:57:21,512 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,514 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-密码为空
+INFO - 2026-05-28 10:57:21,515 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,516 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,517 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'username': 'testuser', 'password': '', 'role_id': 123456789, 'dates': '2024-01-01', 'phone': '13800000000', 'token': '04eA649adcD9976d2Ee7d65C2e488'}}
+INFO - 2026-05-28 10:57:21,519 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u65b0\u589e\u5931\u8d25",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,520 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '新增失败'}}]
+INFO - 2026-05-28 10:57:21,521 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【新增失败】,实际结果【新增失败】
+INFO - 2026-05-28 10:57:21,522 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,523 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,530 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,591 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,594 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:57:21,602 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,605 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为空
+INFO - 2026-05-28 10:57:21,607 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,609 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,610 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': ''}}
+INFO - 2026-05-28 10:57:21,615 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,618 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:57:21,619 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:57:21,622 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,625 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,640 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,666 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,668 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:57:21,669 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,674 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：边界测试-user_id为纯空格
+INFO - 2026-05-28 10:57:21,676 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,676 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,678 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '   '}}
+INFO - 2026-05-28 10:57:21,680 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,681 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:57:21,682 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:57:21,683 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,684 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,692 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,724 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,726 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:57:21,729 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,731 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id为浮点数
+INFO - 2026-05-28 10:57:21,734 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,739 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,741 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': '123.456'}}
+INFO - 2026-05-28 10:57:21,749 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,754 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:57:21,756 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:57:21,758 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,761 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------
+INFO - 2026-05-28 10:57:21,771 - conftest.py:20 -[conftest:start_test_and_end] - -------------接口测试开始--------------
+INFO - 2026-05-28 10:57:21,804 - sendrequest.py:137 -[sendrequest:run_main] - 接口名称：删除用户-边界与反向测试
+INFO - 2026-05-28 10:57:21,806 - sendrequest.py:138 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/dar/user/deleteUser
+INFO - 2026-05-28 10:57:21,808 - sendrequest.py:139 -[sendrequest:run_main] - 请求方式：POST
+INFO - 2026-05-28 10:57:21,809 - sendrequest.py:140 -[sendrequest:run_main] - 测试用例名称：反向测试-user_id为布尔值字符串
+INFO - 2026-05-28 10:57:21,811 - sendrequest.py:141 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2026-05-28 10:57:21,812 - sendrequest.py:142 -[sendrequest:run_main] - Cookie：None
+INFO - 2026-05-28 10:57:21,813 - sendrequest.py:146 -[sendrequest:run_main] - 请求参数：{'data': {'user_id': 'true'}}
+INFO - 2026-05-28 10:57:21,818 - sendrequest.py:110 -[sendrequest:send_request] - 接口返回信息：{
+  "msg": "\u5220\u9664\u5931\u8d25\uff0c\u7528\u6237id\u4e0d\u5b58\u5728!",
+  "msg_code": 9001
+}
+
+INFO - 2026-05-28 10:57:21,825 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'msg': '删除失败'}}]
+INFO - 2026-05-28 10:57:21,829 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【删除失败】,实际结果【删除失败，用户id不存在!】
+INFO - 2026-05-28 10:57:21,831 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2026-05-28 10:57:21,836 - conftest.py:22 -[conftest:start_test_and_end] - -------------接口测试结束--------------

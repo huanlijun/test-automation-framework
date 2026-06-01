@@ -1,0 +1,74 @@
+# SQL注入安全测试用例
+# 验证接口对SQL注入攻击的防御能力，所有注入尝试应被拒绝或返回错误
+
+- baseInfo:
+    api_name: 用户查询-SQL注入防御
+    url: /dar/user/queryUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: SQL注入-单引号注入
+      data:
+        user_id: "' OR '1'='1"
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: SQL注入-注释符注入
+      data:
+        user_id: "123839387391912'--"
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: SQL注入-UNION查询注入
+      data:
+        user_id: "1 UNION SELECT username,password FROM users--"
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: SQL注入-布尔盲注
+      data:
+        user_id: "1 AND 1=1"
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: SQL注入-时间盲注
+      data:
+        user_id: "1; WAITFOR DELAY '0:0:5'--"
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: SQL注入-堆叠注入
+      data:
+        user_id: "1; DROP TABLE users--"
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+- baseInfo:
+    api_name: 新增用户-SQL注入防御
+    url: /dar/user/addUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: SQL注入-用户名字段注入
+      data:
+        username: "admin'--"
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: 13800000000
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: SQL注入-密码字段注入
+      data:
+        username: testuser
+        password: "' OR '1'='1"
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: 13800000000
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }

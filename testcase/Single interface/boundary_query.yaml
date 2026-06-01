@@ -1,0 +1,47 @@
+- baseInfo:
+    api_name: 查询用户-边界与反向测试
+    url: /dar/user/queryUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 边界测试-user_id为空字符串
+      data:
+        user_id: ''
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 边界测试-user_id超长（100位数字）
+      data:
+        user_id: '1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890'
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 边界测试-user_id为负数
+      data:
+        user_id: '-1'
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 边界测试-user_id为0
+      data:
+        user_id: '0'
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 反向测试-user_id含特殊字符
+      data:
+        user_id: '!@#$%^&*()'
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 反向测试-user_id含中文
+      data:
+        user_id: '用户编号'
+      validation:
+        - contains: { 'msg': '查询失败' }
+
+    - case_name: 反向测试-缺少必填参数user_id
+      data: {}
+      validation:
+        - contains: { 'msg': '查询失败' }

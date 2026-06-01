@@ -1,0 +1,64 @@
+# XSS跨站脚本攻击安全测试用例
+# 验证接口对XSS攻击的防御能力，恶意脚本不应被执行或原样返回
+
+- baseInfo:
+    api_name: 新增用户-XSS防御
+    url: /dar/user/addUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: XSS-script标签注入
+      data:
+        username: "<script>alert('xss')</script>"
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: 13800000000
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: XSS-img标签onerror注入
+      data:
+        username: "<img src=x onerror=alert(1)>"
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: 13800000000
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: XSS-javascript伪协议注入
+      data:
+        username: "javascript:alert('xss')"
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: 13800000000
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: XSS-HTML实体编码绕过
+      data:
+        username: "&lt;script&gt;alert(1)&lt;/script&gt;"
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: 13800000000
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: XSS-SVG标签注入
+      data:
+        username: "<svg onload=alert(1)>"
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: 13800000000
+        token: ${get_extract_data(token)}
+      validation:
+        - contains: { 'msg': '新增失败' }
