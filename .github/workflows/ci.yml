@@ -10,6 +10,11 @@ on:
     - cron: '0 1 * * *'
   workflow_dispatch:  # 支持手动触发
 
+permissions:
+  contents: read
+  checks: write
+  pull-requests: write
+
 jobs:
   test:
     runs-on: ubuntu-latest
