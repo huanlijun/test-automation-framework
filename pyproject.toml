@@ -1,3 +1,6 @@
+[tool.setuptools]
+packages = []
+
 [project]
 name = "test-automation-framework"
 version = "0.1.0"
