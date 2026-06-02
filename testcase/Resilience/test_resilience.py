@@ -49,7 +49,8 @@ class TestResilience:
         res1 = requests.post(url, data=data, headers=headers, verify=False, timeout=10)
         logs.info('幂等性测试-第一次响应: %s' % res1.text)
         allure.attach(res1.text, '第一次请求响应', allure.attachment_type.TEXT)
-        assert '删除成功' in res1.text, '第一次删除应成功'
+        res1_json = res1.json()
+        assert '删除成功' in res1_json.get('msg', ''), '第一次删除应成功'
 
         # 第二次请求（mock服务不维护状态，此处验证接口不崩溃且有响应）
         res2 = requests.post(url, data=data, headers=headers, verify=False, timeout=10)

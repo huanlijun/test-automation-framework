@@ -10,5 +10,5 @@
         user_id: '123839387391912'
       validation:
         - contains: { 'msg': '查询成功' }
-        - contains: { 'msg_code': 200 }
+        - eq: { 'msg_code': 200 }
       response_time: 2.0
