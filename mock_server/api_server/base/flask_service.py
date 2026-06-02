@@ -186,6 +186,24 @@ def add_user():
     phone = flask.request.form.get('phone')
     token = flask.request.form.get('token')
     if all([username, password, role_id, dates, phone]) and token == get_token['token']:
+        # XSS攻击检测（检测常见的XSS注入模式）
+        xss_patterns = [
+            r'<script[^>]*>.*?</script>',  # script标签
+            r'<script[^>]*>',  # script开始标签
+            r'<img[^>]*onerror[^>]*>',  # img标签onerror事件
+            r'javascript:',  # javascript伪协议
+            r'&lt;script&gt;',  # HTML实体编码
+            r'<svg[^>]*onload[^>]*>',  # svg标签onload事件
+            r'<iframe[^>]*>',  # iframe标签
+            r'onerror\s*=',  # onerror事件
+            r'onload\s*=',  # onload事件
+        ]
+        for pattern in xss_patterns:
+            if re.search(pattern, username, re.IGNORECASE):
+                return jsonify({'msg': '新增失败', 'msg_code': 9001, 'error': '用户名包含非法字符，可能存在XSS攻击'})
+            if re.search(pattern, password, re.IGNORECASE):
+                return jsonify({'msg': '新增失败', 'msg_code': 9001, 'error': '密码包含非法字符，可能存在XSS攻击'})
+
         # 用户名长度校验（1-64字符）
         if len(username) > 64:
             return jsonify({'msg': '新增失败', 'msg_code': 9001, 'error': '用户名长度不能超过64个字符'})

@@ -1,0 +1,52 @@
+# 未授权访问安全测试用例 - 新增用户接口
+# 验证接口在无token或无效token情况下的访问控制能力
+
+- baseInfo:
+    api_name: 新增用户-无token访问
+    url: /dar/user/addUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 未授权-无token新增用户
+      data:
+        username: testuser
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: 13800000000
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: 未授权-空token新增用户
+      data:
+        username: testuser
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: 13800000000
+        token: ''
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: 未授权-伪造token新增用户
+      data:
+        username: testuser
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: 13800000000
+        token: 'fake_token_abcdefg1234567890'
+      validation:
+        - contains: { 'msg': '新增失败' }
+
+    - case_name: 未授权-过期token新增用户
+      data:
+        username: testuser
+        password: test123456
+        role_id: 123456789
+        dates: '2024-01-01'
+        phone: 13800000000
+        token: 'expired_token_0000000000000000'
+      validation:
+        - contains: { 'msg': '新增失败' }
