@@ -1,0 +1,15 @@
+- baseInfo:
+    api_name: 商品列表-响应时间验证
+    url: /coupApply/cms/goodsList
+    method: Get
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 超时测试-商品列表接口响应时间
+      params:
+        msgType: getHandsetListOfCust
+        page: 1
+        size: 20
+      validation:
+        - contains: { 'error_code': '0000' }
+      response_time: 2.0

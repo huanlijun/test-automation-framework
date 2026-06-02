@@ -1,0 +1,13 @@
+- baseInfo:
+    api_name: 删除用户-响应时间验证
+    url: /dar/user/deleteUser
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 超时测试-删除接口响应时间
+      data:
+        user_id: '331111456562131'
+      validation:
+        - contains: { 'msg': '删除成功' }
+      response_time: 2.0

@@ -195,7 +195,7 @@ def add_user():
         # 日期格式校验（YYYY-MM-DD）
         if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', str(dates)):
             return jsonify({'msg': '新增失败', 'msg_code': 9001, 'error': '日期格式错误，必须为YYYY-MM-DD'})
-        with open('../data/mockdata/userManage.json', 'a', encoding='utf-8') as f:
+        with open(DIR_BASE + '/data/mockdata/userManage.json', 'a', encoding='utf-8') as f:
             add_user_info = {
                 'id': ''.join([random.choice(string.digits) for i in range(11)]),
                 'username': username,

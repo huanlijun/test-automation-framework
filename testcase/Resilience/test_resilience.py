@@ -13,15 +13,29 @@ from common.recordlog import logs
 @allure.feature(next(m_id) + '韧性测试模块')
 class TestResilience:
 
-    @allure.story(next(c_id) + '接口超时处理')
+    @allure.story(next(c_id) + '接口超时处理-查询用户')
     @pytest.mark.run(order=1)
-    @pytest.mark.parametrize('base_info,testcase', get_testcase_yaml('./testcase/Resilience/timeout_test.yaml'))
-    def test_timeout_handling(self, base_info, testcase):
+    @pytest.mark.parametrize('base_info,testcase', get_testcase_yaml('./testcase/Resilience/timeout_query.yaml'))
+    def test_timeout_query(self, base_info, testcase):
+        allure.dynamic.title(testcase['case_name'])
+        RequestBase().specification_yaml(base_info, testcase)
+
+    @allure.story(next(c_id) + '接口超时处理-商品列表')
+    @pytest.mark.run(order=2)
+    @pytest.mark.parametrize('base_info,testcase', get_testcase_yaml('./testcase/Resilience/timeout_goods.yaml'))
+    def test_timeout_goods(self, base_info, testcase):
+        allure.dynamic.title(testcase['case_name'])
+        RequestBase().specification_yaml(base_info, testcase)
+
+    @allure.story(next(c_id) + '接口超时处理-删除用户')
+    @pytest.mark.run(order=3)
+    @pytest.mark.parametrize('base_info,testcase', get_testcase_yaml('./testcase/Resilience/timeout_delete.yaml'))
+    def test_timeout_delete(self, base_info, testcase):
         allure.dynamic.title(testcase['case_name'])
         RequestBase().specification_yaml(base_info, testcase)
 
     @allure.story(next(c_id) + '重复请求幂等性')
-    @pytest.mark.run(order=2)
+    @pytest.mark.run(order=4)
     def test_idempotent_delete(self):
         """同一删除请求重复发送，第二次应返回失败（用户已不存在）"""
         allure.dynamic.title('重复删除同一用户-幂等性验证')
@@ -44,7 +58,7 @@ class TestResilience:
         assert res2.status_code == 200, '重复请求接口应正常响应，不应崩溃'
 
     @allure.story(next(c_id) + '高频并发请求稳定性')
-    @pytest.mark.run(order=3)
+    @pytest.mark.run(order=5)
     def test_concurrent_requests(self):
         """连续快速发送多次查询请求，验证服务稳定性"""
         allure.dynamic.title('高频请求-服务稳定性验证')
@@ -74,7 +88,7 @@ class TestResilience:
         assert fail_count == 0, '高频请求中存在 %d 次失败，服务稳定性不达标' % fail_count
 
     @allure.story(next(c_id) + '响应时间性能基线')
-    @pytest.mark.run(order=4)
+    @pytest.mark.run(order=6)
     def test_response_time_baseline(self):
         """验证核心接口响应时间在可接受范围内（< 2s）"""
         allure.dynamic.title('响应时间基线-查询用户接口')
