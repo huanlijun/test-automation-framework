@@ -178,14 +178,14 @@ def user_login():
 def add_user():
     """新增用户接口"""
     import re
-    get_token = {'token': global_params['token']}
+    stored_token = global_params.get('token')
     username = flask.request.form.get('username')
     password = flask.request.form.get('password')
     role_id = flask.request.form.get('role_id')
     dates = flask.request.form.get('dates')
     phone = flask.request.form.get('phone')
     token = flask.request.form.get('token')
-    if all([username, password, role_id, dates, phone]) and token == get_token['token']:
+    if all([username, password, role_id, dates, phone]) and stored_token and token == stored_token:
         # XSS攻击检测（检测常见的XSS注入模式）
         xss_patterns = [
             r'<script[^>]*>.*?</script>',  # script标签
